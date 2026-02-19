@@ -1,0 +1,21 @@
+tag_id,transmitter_id,scientific_name,common_name,tag_project_name,release_id,release_latitude,release_longitude,ReleaseDate,tag_expected_life_time_days,tag_status,sex,measurement,sensor_slope,sensor_intercept,sensor_type,sensor_unit,tag_model_name,tag_serial_number,dual_sensor_tag,girth,catch_area
+14681,14681,Carcharhinus limbatus,Blacktip,Blacktip,a,-26.74663889,32.93422222,2018/11/20 00:00:00,3650,Deployed,F,249,NA,NA,NA,NA,NA,NA,NA,NA,Ponta
+14684,14684,Carcharhinus limbatus,Blacktip,Blacktip,b,-26.74663889,32.93422222,2018/11/21 00:00:00,3650,Deployed,F,244,NA,NA,NA,NA,NA,NA,NA,NA,Ponta
+14675,14675,Carcharhinus limbatus,Blacktip,Blacktip,c,-26.74663889,32.93422222,2018/11/23 00:00:00,3650,Deployed,F,228,NA,NA,NA,NA,NA,NA,NA,NA,Ponta
+14670,14670,Carcharhinus limbatus,Blacktip,Blacktip,d,-26.74663889,32.93422222,2018/11/24 00:00:00,3650,Deployed,F,237,NA,NA,NA,NA,NA,NA,NA,NA,Ponta
+14685,14685,Carcharhinus limbatus,Blacktip,Blacktip,e,-26.74663889,32.93422222,2018/12/02 00:00:00,3650,Deployed,F,230,NA,NA,NA,NA,NA,NA,NA,NA,Ponta
+8953,8953,Carcharhinus limbatus,Blacktip,Blacktip,f,-26.74663889,32.93422222,2019/11/09 00:00:00,3650,Deployed,F,240,NA,NA,NA,NA,NA,NA,NA,NA,Ponta
+6508,6508,Carcharhinus limbatus,Blacktip,Blacktip,g,-26.84444,32.89619,2020/06/23 00:00:00,3650,Deployed,M,243,NA,NA,NA,NA,NA,NA,NA,NA,Scottburgh
+3182,3182,Carcharhinus limbatus,Blacktip,Blacktip,h,-30.365388,30.714944,2020/06/26 00:00:00,3650,Deployed,M,231,NA,NA,NA,NA,NA,NA,NA,NA,Kelso Station
+3183,3183,Carcharhinus limbatus,Blacktip,Blacktip,i,-30.365388,30.851294,2020/06/26 00:00:00,3650,Deployed,M,229,NA,NA,NA,NA,NA,NA,NA,NA,Kelso Station
+3184,3184,Carcharhinus limbatus,Blacktip,Blacktip,j,-30.365388,30.12985,2020/07/02 00:00:00,3650,Deployed,F,262,NA,NA,NA,NA,NA,NA,NA,NA,Illovo Mouth north
+3185,3185,Carcharhinus limbatus,Blacktip,Blacktip,k,-30.28107,30.81001,2020/07/03 00:00:00,3650,Deployed,F,261,NA,NA,NA,NA,NA,NA,NA,NA,Aliwal Shoal
+3187,3187,Carcharhinus limbatus,Blacktip,Blacktip,l,-30.28107,30.81001,2020/07/13 00:00:00,3650,Deployed,F,229,NA,NA,NA,NA,NA,NA,NA,NA,Aliwal Shoal
+3191,3191,Carcharhinus limbatus,Blacktip,Blacktip,m,-30.28107,30.81001,2020/07/19 00:00:00,3650,Deployed,F,241,NA,NA,NA,NA,NA,NA,NA,NA,Aliwal Shoal
+3192,3192,Carcharhinus limbatus,Blacktip,Blacktip,n,-30.28107,30.81001,2020/07/26 00:00:00,3650,Deployed,F,222,NA,NA,NA,NA,NA,NA,NA,NA,Cathedral
+3194,3194,Carcharhinus limbatus,Blacktip,Blacktip,o,-30.37126,30.76117,2020/08/03 00:00:00,3650,Deployed,M,191,NA,NA,NA,NA,NA,NA,NA,NA,Geelbek
+3395,3395,Carcharhinus limbatus,Blacktip,Blacktip,p,-22.154226,35.748355,2020/12/01 00:00:00,3650,Deployed,F,244,NA,NA,NA,NA,NA,NA,NA,NA,Number 1
+3396,3396,Carcharhinus limbatus,Blacktip,Blacktip,q,-22.154226,35.748355,2020/12/02 00:00:00,3650,Deployed,F,227,NA,NA,NA,NA,NA,NA,NA,NA,Number 1
+4079,4079,Carcharhinus limbatus,Blacktip,Blacktip,r,-22.154226,35.748355,2020/12/03 00:00:00,3650,Deployed,F,248,NA,NA,NA,NA,NA,NA,NA,NA,Number 3
+3309,3309,Carcharhinus limbatus,Blacktip,Blacktip,s,-27.52474,32.684302,2021/11/01 00:00:00,3650,Deployed,M,214,NA,NA,NA,NA,NA,NA,NA,NA,Hotspot
+3297,3297,Carcharhinus limbatus,Blacktip,Blacktip,t,-27.395393,32.759811,2021/11/04 00:00:00,3650,Deployed,F,288,NA,NA,NA,NA,NA,NA,NA,NA,Mabibi
