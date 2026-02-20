@@ -5,7 +5,8 @@ Add Binder Badge here
 
 ## Background Information
 
-[<img src="images/Carcharhinus%20limbatus-01.jpg" width="500" />](https://www.google.com/imgres?q=Carcharhinus%20limbatus&imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F2%2F29%2FCarcharhinus_limbatus_%25282%2529.jpg&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FBlacktip_shark&docid=-6OTnHGl0wLLmM&tbnid=gmMHHqvZOIQXIM&vet=12ahUKEwiWs-TeyueSAxUGUUEAHYafKqMQnPAOegQIGRAB..i&w=1693&h=995&hcb=2&ved=2ahUKEwiWs-TeyueSAxUGUUEAHYafKqMQnPAOegQIGRAB)
+<img src="images/Carcharhinus%20limbatus-01.jpg" width="500"
+alt="“Image of Blacktip Shark (Carcharhinus limbatus)”" />
 
 This study investigates the migration of blacktip sharks (*Carcharhinus
 limbatus*) along the east coast of southern Africa to better understand
