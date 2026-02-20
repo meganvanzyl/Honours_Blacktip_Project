@@ -38,12 +38,9 @@ The raw data files can be found [here](https://github.com/meganvanzyl/Honours_Bl
 
 The tidy R Script can be found [here](https://github.com/meganvanzyl/Honours_Blacktip_Project/tree/main/Code/Tidy%20Blacktip%20Metadata%20Code).
 
-#### Follow the step-by-step of how i cleaned the raw data file for the shark metadata
-
-Here I am removing some columns from the blacktip_metadata file that NA values for all entries:
+#### Follow the step-by-step of how I cleaned the raw data file for the shark metadata
 
 ```{r}
-#| eval: false
 #| include: false
 library(tidyverse)
 library(dplyr)
@@ -63,7 +60,7 @@ clean_shark_data <- read.csv("Data/Raw_Data/blacktip_metadata.csv") %>%
   
   rename(tag_transmitter_id = transmitter_id) %>%
   
-  # I want to separate the date and time data into their own respective columns
+# I want to separate the date and time data into their own respective columns
   
   separate(ReleaseDate, into = c("release_date", "time"), sep = " ", remove = FALSE) %>%
   mutate(release_date = ymd(release_date), time = hms(time)) %>%
