@@ -22,4 +22,4 @@ clean_shark_data <- read.csv("Data/Raw_Data/blacktip_metadata.csv") %>%
   mutate(release_date = ymd(release_date), time = hms(time)) %>%
   select(!c("ReleaseDate", "time"))
 
-view(clean_shark_data)
+print(clean_shark_data)

@@ -47,8 +47,8 @@ Blacktip Detections</h4></th>
 <td style="text-align: center;"><ul>
 <li><p>Tag IDs</p></li>
 <li><p>Gender</p></li>
-<li><p>Measurements (length from nose to tip of the upper caudal
-lobe)</p></li>
+<li><p>Measurements</p>
+<p>(length in cm; nose to tip of the upper caudal lobe)</p></li>
 <li><p>Release date (YYYY/MM/DD) and location (longitude and
 latitude)</p></li>
 <li><p>Catch Area</p></li>
@@ -115,8 +115,51 @@ clean_shark_data <- read.csv("Data/Raw_Data/blacktip_metadata.csv") %>%
   mutate(release_date = ymd(release_date), time = hms(time)) %>%
   select(!c("ReleaseDate", "time"))
 
-view(clean_shark_data)
+print(clean_shark_data)
 ```
+
+       tag_transmitter_id common_name release_id release_latitude release_longitude
+    1               14681    Blacktip          a        -26.74664          32.93422
+    2               14684    Blacktip          b        -26.74664          32.93422
+    3               14675    Blacktip          c        -26.74664          32.93422
+    4               14670    Blacktip          d        -26.74664          32.93422
+    5               14685    Blacktip          e        -26.74664          32.93422
+    6                8953    Blacktip          f        -26.74664          32.93422
+    7                6508    Blacktip          g        -26.84444          32.89619
+    8                3182    Blacktip          h        -30.36539          30.71494
+    9                3183    Blacktip          i        -30.36539          30.85129
+    10               3184    Blacktip          j        -30.36539          30.12985
+    11               3185    Blacktip          k        -30.28107          30.81001
+    12               3187    Blacktip          l        -30.28107          30.81001
+    13               3191    Blacktip          m        -30.28107          30.81001
+    14               3192    Blacktip          n        -30.28107          30.81001
+    15               3194    Blacktip          o        -30.37126          30.76117
+    16               3395    Blacktip          p        -22.15423          35.74835
+    17               3396    Blacktip          q        -22.15423          35.74835
+    18               4079    Blacktip          r        -22.15423          35.74835
+    19               3309    Blacktip          s        -27.52474          32.68430
+    20               3297    Blacktip          t        -27.39539          32.75981
+       release_date sex measurement         catch_area
+    1    2018-11-20   F         249              Ponta
+    2    2018-11-21   F         244              Ponta
+    3    2018-11-23   F         228              Ponta
+    4    2018-11-24   F         237              Ponta
+    5    2018-12-02   F         230              Ponta
+    6    2019-11-09   F         240              Ponta
+    7    2020-06-23   M         243         Scottburgh
+    8    2020-06-26   M         231      Kelso Station
+    9    2020-06-26   M         229      Kelso Station
+    10   2020-07-02   F         262 Illovo Mouth north
+    11   2020-07-03   F         261       Aliwal Shoal
+    12   2020-07-13   F         229       Aliwal Shoal
+    13   2020-07-19   F         241       Aliwal Shoal
+    14   2020-07-26   F         222          Cathedral
+    15   2020-08-03   M         191            Geelbek
+    16   2020-12-01   F         244           Number 1
+    17   2020-12-02   F         227           Number 1
+    18   2020-12-03   F         248           Number 3
+    19   2021-11-01   M         214            Hotspot
+    20   2021-11-04   F         288             Mabibi
 
 When you click the **Render** button a document will be generated that
 includes both content and the output of embedded code. You can embed

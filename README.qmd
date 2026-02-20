@@ -25,7 +25,9 @@ The raw data files can be found [here](https://github.com/meganvanzyl/Honours_Bl
 |                                                                     |                                                              |                                       |
 | -   Gender                                                          | -   Project Name: ORI                                        | -   Receiver and Transmitter ID       |
 |                                                                     |                                                              |                                       |
-| -   Measurements (length from nose to tip of the upper caudal lobe) | -   Deployment and recovery date (YYYY/MM/DD) and time (hms) | -   Location (latitude and longtitde) |
+| -   Measurements                                                    | -   Deployment and recovery date (YYYY/MM/DD) and time (hms) | -   Location (latitude and longtitde) |
+|                                                                     |                                                              |                                       |
+|     (length in cm; nose to tip of the upper caudal lobe)            |                                                              |                                       |
 |                                                                     |                                                              |                                       |
 | -   Release date (YYYY/MM/DD) and location (longitude and latitude) |                                                              |                                       |
 |                                                                     |                                                              |                                       |
@@ -41,6 +43,7 @@ The tidy R Script can be found [here](https://github.com/meganvanzyl/Honours_Bla
 #### Follow the step-by-step of how I cleaned the raw data file for the shark metadata
 
 ```{r}
+#| echo: true
 library(tidyverse)
 library(dplyr)
 library(tidyr)
@@ -65,7 +68,7 @@ clean_shark_data <- read.csv("Data/Raw_Data/blacktip_metadata.csv") %>%
   mutate(release_date = ymd(release_date), time = hms(time)) %>%
   select(!c("ReleaseDate", "time"))
 
-view(clean_shark_data)
+print(clean_shark_data)
 ```
 
 When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
