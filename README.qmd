@@ -8,7 +8,7 @@ Add Binder Badge here
 
 ## Background Information
 
-!["Image of Blacktip Shark (*Carcharhinus limbatus*)"](images/Carcharhinus%20limbatus-01.jpg){width="200"}
+!["Image of Blacktip Shark (*Carcharhinus limbatus*)"](images/Carcharhinus limbatus.jpg)
 
 This study investigates the migration of blacktip sharks (*Carcharhinus limbatus*) along the east coast of southern Africa to better understand their foraging ecology. Sharks were captured and fitted with surgically implanted acoustic transmitters in the coelomic cavity. A network of fixed acoustic receivers detects tagged individuals when they move within detection range, generating time-stamped records of presence along the coastline. Data were collected between 2020 and 2025 and will be analysed in R to characterise movement patterns and evaluate potential drivers of seasonal and spatial migration.
 
@@ -42,7 +42,21 @@ This includes:
 
 -   Deployment and recovery date (YYYY/MM/DD) and time (hms)
 
-## Running Code
+#### The Blacktip Detections
+
+This includes:
+
+-   Date (YYYY/DD/MM) and time (hms)
+
+-   Receiver and Transmitter ID
+
+-   Location (latitude and longtitde)
+
+## Clean Data
+
+### Blacktip Metadata
+
+The R Script can be found here.
 
 When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
 

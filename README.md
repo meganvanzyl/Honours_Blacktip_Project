@@ -5,8 +5,8 @@ Add Binder Badge here
 
 ## Background Information
 
-<img src="images/Carcharhinus%20limbatus-01.jpg" width="200"
-alt="“Image of Blacktip Shark (Carcharhinus limbatus)”" />
+![“Image of Blacktip Shark (*Carcharhinus
+limbatus*)”](images/Carcharhinus%20limbatus.jpg)
 
 This study investigates the migration of blacktip sharks (*Carcharhinus
 limbatus*) along the east coast of southern Africa to better understand
@@ -49,7 +49,21 @@ This includes:
 
 - Deployment and recovery date (YYYY/MM/DD) and time (hms)
 
-## Running Code
+#### The Blacktip Detections
+
+This includes:
+
+- Date (YYYY/DD/MM) and time (hms)
+
+- Receiver and Transmitter ID
+
+- Location (latitude and longtitde)
+
+## Clean Data
+
+### Blacktip Metadata
+
+The R Script can be found here.
 
 When you click the **Render** button a document will be generated that
 includes both content and the output of embedded code. You can embed
