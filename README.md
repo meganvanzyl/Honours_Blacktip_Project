@@ -161,6 +161,33 @@ print(clean_shark_data)
     19   2021-11-01   M         214            Hotspot
     20   2021-11-04   F         288             Mabibi
 
+``` r
+knitr::kable(clean_shark_data)
+```
+
+| tag_transmitter_id | common_name | release_id | release_latitude | release_longitude | release_date | sex | measurement | catch_area |
+|---:|:---|:---|---:|---:|:---|:---|---:|:---|
+| 14681 | Blacktip | a | -26.74664 | 32.93422 | 2018-11-20 | F | 249 | Ponta |
+| 14684 | Blacktip | b | -26.74664 | 32.93422 | 2018-11-21 | F | 244 | Ponta |
+| 14675 | Blacktip | c | -26.74664 | 32.93422 | 2018-11-23 | F | 228 | Ponta |
+| 14670 | Blacktip | d | -26.74664 | 32.93422 | 2018-11-24 | F | 237 | Ponta |
+| 14685 | Blacktip | e | -26.74664 | 32.93422 | 2018-12-02 | F | 230 | Ponta |
+| 8953 | Blacktip | f | -26.74664 | 32.93422 | 2019-11-09 | F | 240 | Ponta |
+| 6508 | Blacktip | g | -26.84444 | 32.89619 | 2020-06-23 | M | 243 | Scottburgh |
+| 3182 | Blacktip | h | -30.36539 | 30.71494 | 2020-06-26 | M | 231 | Kelso Station |
+| 3183 | Blacktip | i | -30.36539 | 30.85129 | 2020-06-26 | M | 229 | Kelso Station |
+| 3184 | Blacktip | j | -30.36539 | 30.12985 | 2020-07-02 | F | 262 | Illovo Mouth north |
+| 3185 | Blacktip | k | -30.28107 | 30.81001 | 2020-07-03 | F | 261 | Aliwal Shoal |
+| 3187 | Blacktip | l | -30.28107 | 30.81001 | 2020-07-13 | F | 229 | Aliwal Shoal |
+| 3191 | Blacktip | m | -30.28107 | 30.81001 | 2020-07-19 | F | 241 | Aliwal Shoal |
+| 3192 | Blacktip | n | -30.28107 | 30.81001 | 2020-07-26 | F | 222 | Cathedral |
+| 3194 | Blacktip | o | -30.37126 | 30.76117 | 2020-08-03 | M | 191 | Geelbek |
+| 3395 | Blacktip | p | -22.15423 | 35.74835 | 2020-12-01 | F | 244 | Number 1 |
+| 3396 | Blacktip | q | -22.15423 | 35.74835 | 2020-12-02 | F | 227 | Number 1 |
+| 4079 | Blacktip | r | -22.15423 | 35.74835 | 2020-12-03 | F | 248 | Number 3 |
+| 3309 | Blacktip | s | -27.52474 | 32.68430 | 2021-11-01 | M | 214 | Hotspot |
+| 3297 | Blacktip | t | -27.39539 | 32.75981 | 2021-11-04 | F | 288 | Mabibi |
+
 When you click the **Render** button a document will be generated that
 includes both content and the output of embedded code. You can embed
 code like this:

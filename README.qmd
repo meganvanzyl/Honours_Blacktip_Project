@@ -69,6 +69,7 @@ clean_shark_data <- read.csv("Data/Raw_Data/blacktip_metadata.csv") %>%
   select(!c("ReleaseDate", "time"))
 
 print(clean_shark_data)
+knitr::kable(clean_shark_data)
 ```
 
 When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
