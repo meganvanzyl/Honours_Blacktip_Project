@@ -44,18 +44,25 @@ Blacktip Detections</h4></th>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: center;"><p>Tag IDs</p>
-<p>Gender</p>
-<p>Measurements (length from nose to tip of the upper caudal lobe)</p>
-<p>Release date (YYYY/MM/DD) and location (longitude and latitude)</p>
-<p>Catch Area</p></td>
-<td style="text-align: center;"><p>Station name and location (latitude
-and longitude)</p>
-<p>Project Name: ORI</p>
-<p>Deployment and recovery date (YYYY/MM/DD) and time (hms)</p></td>
-<td style="text-align: center;"><p>Date (YYYY/DD/MM) and time (hms)</p>
-<p>Receiver and Transmitter ID</p>
-<p>Location (latitude and longtitde)</p></td>
+<td style="text-align: center;"><ul>
+<li><p>Tag IDs</p></li>
+<li><p>Gender</p></li>
+<li><p>Measurements (length from nose to tip of the upper caudal
+lobe)</p></li>
+<li><p>Release date (YYYY/MM/DD) and location (longitude and
+latitude)</p></li>
+<li><p>Catch Area</p></li>
+</ul></td>
+<td style="text-align: center;"><ul>
+<li><p>Station name and location (latitude and longitude)</p></li>
+<li><p>Project Name: ORI</p></li>
+<li><p>Deployment and recovery date (YYYY/MM/DD) and time (hms)</p></li>
+</ul></td>
+<td style="text-align: center;"><ul>
+<li><p>Date (YYYY/DD/MM) and time (hms)</p></li>
+<li><p>Receiver and Transmitter ID</p></li>
+<li><p>Location (latitude and longtitde)</p></li>
+</ul></td>
 </tr>
 </tbody>
 </table>

@@ -18,19 +18,19 @@ The raw data files can be found [here](https://github.com/meganvanzyl/Honours_Bl
 
 ### There are 3 raw data files:
 
-+-----------------------------------------------------------------+----------------------------------------------------------+-----------------------------------+
-| #### The Blacktip Metadata of individual sharks                 | #### The Receiver Metadata                               | #### The Blacktip Detections      |
-+:===============================================================:+:========================================================:+:=================================:+
-| Tag IDs                                                         | Station name and location (latitude and longitude)       | Date (YYYY/DD/MM) and time (hms)  |
-|                                                                 |                                                          |                                   |
-| Gender                                                          | Project Name: ORI                                        | Receiver and Transmitter ID       |
-|                                                                 |                                                          |                                   |
-| Measurements (length from nose to tip of the upper caudal lobe) | Deployment and recovery date (YYYY/MM/DD) and time (hms) | Location (latitude and longtitde) |
-|                                                                 |                                                          |                                   |
-| Release date (YYYY/MM/DD) and location (longitude and latitude) |                                                          |                                   |
-|                                                                 |                                                          |                                   |
-| Catch Area                                                      |                                                          |                                   |
-+-----------------------------------------------------------------+----------------------------------------------------------+-----------------------------------+
++---------------------------------------------------------------------+--------------------------------------------------------------+---------------------------------------+
+| #### The Blacktip Metadata of individual sharks                     | #### The Receiver Metadata                                   | #### The Blacktip Detections          |
++:===================================================================:+:============================================================:+:=====================================:+
+| -   Tag IDs                                                         | -   Station name and location (latitude and longitude)       | -   Date (YYYY/DD/MM) and time (hms)  |
+|                                                                     |                                                              |                                       |
+| -   Gender                                                          | -   Project Name: ORI                                        | -   Receiver and Transmitter ID       |
+|                                                                     |                                                              |                                       |
+| -   Measurements (length from nose to tip of the upper caudal lobe) | -   Deployment and recovery date (YYYY/MM/DD) and time (hms) | -   Location (latitude and longtitde) |
+|                                                                     |                                                              |                                       |
+| -   Release date (YYYY/MM/DD) and location (longitude and latitude) |                                                              |                                       |
+|                                                                     |                                                              |                                       |
+| -   Catch Area                                                      |                                                              |                                       |
++---------------------------------------------------------------------+--------------------------------------------------------------+---------------------------------------+
 
 ## Clean Data
 
