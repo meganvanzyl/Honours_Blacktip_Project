@@ -43,7 +43,7 @@ The tidy R Script can be found [here](https://github.com/meganvanzyl/Honours_Bla
 #### Follow the step-by-step of how I cleaned the raw data file for the shark metadata
 
 ```{r}
-#| echo: true
+#| echo: false
 library(tidyverse)
 library(dplyr)
 library(tidyr)
@@ -68,7 +68,6 @@ clean_shark_data <- read.csv("Data/Raw_Data/blacktip_metadata.csv") %>%
   mutate(release_date = ymd(release_date), time = hms(time)) %>%
   select(!c("ReleaseDate", "time"))
 
-print(clean_shark_data)
 knitr::kable(clean_shark_data)
 ```
 
