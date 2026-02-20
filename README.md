@@ -74,7 +74,11 @@ latitude)</p></li>
 The tidy R Script can be found
 [here](https://github.com/meganvanzyl/Honours_Blacktip_Project/tree/main/Code/Tidy%20Blacktip%20Metadata%20Code).
 
-#### Follow the step-by-step of how I cleaned the raw data file for the shark metadata
+#### Follow the step-by-step of how I cleaned the raw data file for the shark metadata:
+
+``` r
+library(tidyverse)
+```
 
     ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
     ✔ dplyr     1.2.0     ✔ readr     2.1.6
@@ -86,6 +90,33 @@ The tidy R Script can be found
     ✖ dplyr::filter() masks stats::filter()
     ✖ dplyr::lag()    masks stats::lag()
     ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+
+``` r
+library(dplyr)
+library(tidyr)
+library(lubridate)
+
+# Here I am removing some columns from the blacktip_metadata file that NA values for all entries
+
+clean_shark_data <- read.csv("Data/Raw_Data/blacktip_metadata.csv") %>%
+  select(!c("sensor_slope", "sensor_intercept", "sensor_type", "sensor_unit","tag_model_name", "tag_serial_number", "dual_sensor_tag", "girth", 
+            
+# I am also removing information that is repeated in its respective column, such as scientific_name, tag_expected_life_time_days and tag_status
+            
+            "scientific_name", "tag_expected_life_time_days", "tag_status", "tag_id", "tag_project_name")) %>%
+  
+# Also, I am combining columns that contain the same data, such as tag_id and transmitter_id, as well as common_name and tag_project_name. I'll remove one of the replicate columns and rename the remaining one with both column titles
+  
+  rename(tag_transmitter_id = transmitter_id) %>%
+  
+# I want to separate the date and time data into their own respective columns
+  
+  separate(ReleaseDate, into = c("release_date", "time"), sep = " ", remove = FALSE) %>%
+  mutate(release_date = ymd(release_date), time = hms(time)) %>%
+  select(!c("ReleaseDate", "time"))
+
+knitr::kable(clean_shark_data)
+```
 
 | tag_transmitter_id | common_name | release_id | release_latitude | release_longitude | release_date | sex | measurement | catch_area |
 |---:|:---|:---|---:|---:|:---|:---|---:|:---|
@@ -109,20 +140,3 @@ The tidy R Script can be found
 | 4079 | Blacktip | r | -22.15423 | 35.74835 | 2020-12-03 | F | 248 | Number 3 |
 | 3309 | Blacktip | s | -27.52474 | 32.68430 | 2021-11-01 | M | 214 | Hotspot |
 | 3297 | Blacktip | t | -27.39539 | 32.75981 | 2021-11-04 | F | 288 | Mabibi |
-
-When you click the **Render** button a document will be generated that
-includes both content and the output of embedded code. You can embed
-code like this:
-
-``` r
-1 + 1
-```
-
-    [1] 2
-
-You can add options to executable code like this
-
-    [1] 4
-
-The `echo: false` option disables the printing of code (only output is
-displayed).

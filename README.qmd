@@ -40,10 +40,10 @@ The raw data files can be found [here](https://github.com/meganvanzyl/Honours_Bl
 
 The tidy R Script can be found [here](https://github.com/meganvanzyl/Honours_Blacktip_Project/tree/main/Code/Tidy%20Blacktip%20Metadata%20Code).
 
-#### Follow the step-by-step of how I cleaned the raw data file for the shark metadata
+#### Follow the step-by-step of how I cleaned the raw data file for the shark metadata:
 
 ```{r}
-#| echo: false
+#| echo: true
 library(tidyverse)
 library(dplyr)
 library(tidyr)
@@ -70,18 +70,3 @@ clean_shark_data <- read.csv("Data/Raw_Data/blacktip_metadata.csv") %>%
 
 knitr::kable(clean_shark_data)
 ```
-
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
-
-```{r}
-1 + 1
-```
-
-You can add options to executable code like this
-
-```{r}
-#| echo: false
-2 * 2
-```
-
-The `echo: false` option disables the printing of code (only output is displayed).
