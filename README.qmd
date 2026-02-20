@@ -16,7 +16,7 @@ This study investigates the migration of blacktip sharks (*Carcharhinus limbatus
 
 The raw data files can be found [here](https://github.com/meganvanzyl/Honours_Blacktip_Project/tree/main/Data/Raw_Data).
 
-### There are 3 raw data files: 
+### There are 3 raw data files:
 
 #### The metadata of the blacktip shark individuals
 
@@ -31,6 +31,8 @@ This includes:
 -   Release location (longitude and latitude)
 
 -   Catch Area
+
+#### The Receiver Metadata
 
 ## Running Code
 
