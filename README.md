@@ -25,39 +25,40 @@ The raw data files can be found
 
 ### There are 3 raw data files:
 
-#### The Blacktip Metadata of individual sharks
-
-This includes:
-
-- Tag IDs
-
-- Gender
-
-- Measurements (length from nose to tip of the upper caudal lobe)
-
-- Release date (YYYY/MM/DD) and location (longitude and latitude)
-
-- Catch Area
-
-#### The Receiver Metadata
-
-This includes:
-
-- Station name and location (latitude and longitude)
-
-- Project Name: ORI
-
-- Deployment and recovery date (YYYY/MM/DD) and time (hms)
-
-#### The Blacktip Detections
-
-This includes:
-
-- Date (YYYY/DD/MM) and time (hms)
-
-- Receiver and Transmitter ID
-
-- Location (latitude and longtitde)
+<table style="width:99%;">
+<colgroup>
+<col style="width: 40%" />
+<col style="width: 36%" />
+<col style="width: 22%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: center;"><h4
+id="the-blacktip-metadata-of-individual-sharks">The Blacktip Metadata of
+individual sharks</h4></th>
+<th style="text-align: center;"><h4 id="the-receiver-metadata">The
+Receiver Metadata</h4></th>
+<th style="text-align: center;"><h4 id="the-blacktip-detections">The
+Blacktip Detections</h4></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><p>Tag IDs</p>
+<p>Gender</p>
+<p>Measurements (length from nose to tip of the upper caudal lobe)</p>
+<p>Release date (YYYY/MM/DD) and location (longitude and latitude)</p>
+<p>Catch Area</p></td>
+<td style="text-align: center;"><p>Station name and location (latitude
+and longitude)</p>
+<p>Project Name: ORI</p>
+<p>Deployment and recovery date (YYYY/MM/DD) and time (hms)</p></td>
+<td style="text-align: center;"><p>Date (YYYY/DD/MM) and time (hms)</p>
+<p>Receiver and Transmitter ID</p>
+<p>Location (latitude and longtitde)</p></td>
+</tr>
+</tbody>
+</table>
 
 ## Clean Data
 
