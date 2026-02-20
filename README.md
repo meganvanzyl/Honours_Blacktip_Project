@@ -71,7 +71,13 @@ latitude)</p></li>
 
 ### Blacktip Metadata
 
-The R Script can be found here.
+The tidy R Script can be found
+[here](https://github.com/meganvanzyl/Honours_Blacktip_Project/tree/main/Code/Tidy%20Blacktip%20Metadata%20Code).
+
+#### Follow the step-by-step of how i cleaned the raw data file for the shark metadata
+
+Here I am removing some columns from the blacktip_metadata file that NA
+values for all entries:
 
 When you click the **Render** button a document will be generated that
 includes both content and the output of embedded code. You can embed
