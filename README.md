@@ -5,7 +5,7 @@ Add Binder Badge here
 
 ## Background Information
 
-<img src="images/Carcharhinus%20limbatus-01.jpg" width="500"
+<img src="images/Carcharhinus%20limbatus-01.jpg" width="200"
 alt="“Image of Blacktip Shark (Carcharhinus limbatus)”" />
 
 This study investigates the migration of blacktip sharks (*Carcharhinus
@@ -25,7 +25,7 @@ The raw data files can be found
 
 ### There are 3 raw data files:
 
-#### The metadata of the blacktip shark individuals
+#### The Blacktip Metadata of individual sharks
 
 This includes:
 
@@ -35,11 +35,19 @@ This includes:
 
 - Measurements (length from nose to tip of the upper caudal lobe)
 
-- Release location (longitude and latitude)
+- Release date (YYYY/MM/DD) and location (longitude and latitude)
 
 - Catch Area
 
 #### The Receiver Metadata
+
+This includes:
+
+- Station name and location (latitude and longitude)
+
+- Project Name: ORI
+
+- Deployment and recovery date (YYYY/MM/DD) and time (hms)
 
 ## Running Code
 

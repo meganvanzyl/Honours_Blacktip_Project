@@ -8,7 +8,7 @@ Add Binder Badge here
 
 ## Background Information
 
-!["Image of Blacktip Shark (*Carcharhinus limbatus*)"](images/Carcharhinus%20limbatus-01.jpg){width="500"}
+!["Image of Blacktip Shark (*Carcharhinus limbatus*)"](images/Carcharhinus%20limbatus-01.jpg){width="200"}
 
 This study investigates the migration of blacktip sharks (*Carcharhinus limbatus*) along the east coast of southern Africa to better understand their foraging ecology. Sharks were captured and fitted with surgically implanted acoustic transmitters in the coelomic cavity. A network of fixed acoustic receivers detects tagged individuals when they move within detection range, generating time-stamped records of presence along the coastline. Data were collected between 2020 and 2025 and will be analysed in R to characterise movement patterns and evaluate potential drivers of seasonal and spatial migration.
 
@@ -18,7 +18,7 @@ The raw data files can be found [here](https://github.com/meganvanzyl/Honours_Bl
 
 ### There are 3 raw data files:
 
-#### The metadata of the blacktip shark individuals
+#### The Blacktip Metadata of individual sharks
 
 This includes:
 
@@ -28,11 +28,19 @@ This includes:
 
 -   Measurements (length from nose to tip of the upper caudal lobe)
 
--   Release location (longitude and latitude)
+-   Release date (YYYY/MM/DD) and location (longitude and latitude)
 
 -   Catch Area
 
 #### The Receiver Metadata
+
+This includes:
+
+-   Station name and location (latitude and longitude)
+
+-   Project Name: ORI
+
+-   Deployment and recovery date (YYYY/MM/DD) and time (hms)
 
 ## Running Code
 
