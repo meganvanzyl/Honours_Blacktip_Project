@@ -41,7 +41,6 @@ The tidy R Script can be found [here](https://github.com/meganvanzyl/Honours_Bla
 #### Follow the step-by-step of how I cleaned the raw data file for the shark metadata
 
 ```{r}
-#| include: false
 library(tidyverse)
 library(dplyr)
 library(tidyr)
