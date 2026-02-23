@@ -1,7 +1,7 @@
 # README
 
 
-Add Binder Badge here
+\[\![Binder\](https://mybinder.org/badge_logo.svg)\](https://mybinder.org/v2/gh/meganvanzyl/Honours_Blacktip_Project/HEAD)
 
 ## Background Information
 
