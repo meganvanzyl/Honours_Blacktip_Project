@@ -140,3 +140,10 @@ knitr::kable(clean_shark_data)
 | 4079 | Blacktip | r | -22.15423 | 35.74835 | 2020-12-03 | F | 248 | Number 3 |
 | 3309 | Blacktip | s | -27.52474 | 32.68430 | 2021-11-01 | M | 214 | Hotspot |
 | 3297 | Blacktip | t | -27.39539 | 32.75981 | 2021-11-04 | F | 288 | Mabibi |
+
+### Receiver Metadata
+
+The tidy R script can be found here.
+
+I have visualized the locations of the receivers specifically related to
+the ORI project in this interactive map.
