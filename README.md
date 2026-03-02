@@ -146,4 +146,4 @@ knitr::kable(clean_shark_data)
 The tidy R script can be found here.
 
 I have visualized the locations of the receivers specifically related to
-the ORI project in this interactive map.
+the ORI project in this interactive map:
