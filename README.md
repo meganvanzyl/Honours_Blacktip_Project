@@ -143,7 +143,7 @@ knitr::kable(clean_shark_data)
 
 ### Receiver Metadata
 
-The tidy R script can be found here.
-
 I have visualized the locations of the receivers specifically related to
-the ORI project in this interactive map:
+the ORI project in this interactive map. Click
+[here](file:///Users/meganvanzyl/Documents/GIT/Honours_Blacktip_Project/InterctaiveMap.html)
+to see the map in a browser window.
