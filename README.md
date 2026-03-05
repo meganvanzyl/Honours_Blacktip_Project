@@ -145,5 +145,5 @@ knitr::kable(clean_shark_data)
 
 I have visualized the locations of the receivers specifically related to
 the ORI project in this interactive map. Click
-[here](file:///Users/meganvanzyl/Documents/GIT/Honours_Blacktip_Project/InterctaiveMap.html)
+[here](https://raw.githack.com/meganvanzyl/Honours_Blacktip_Project/main/InterctaiveMap.html)
 to see the map in a browser window.
